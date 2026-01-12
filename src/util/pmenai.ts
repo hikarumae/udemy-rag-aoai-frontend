@@ -9,7 +9,7 @@ export const getOnYourData = async (message:string): Promise<any[]> => {
 
         console.log('On Your data start!')
 
-        const apiUrl = ''
+        const apiUrl = 'https://api-webapp-udemy-rag-tamo.azurewebsites.net/conversation'
 
         const requestData = {
             messages: [
